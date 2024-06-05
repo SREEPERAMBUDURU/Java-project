@@ -57,9 +57,9 @@ public class Connect4 {
 		
 		if (winner){
 			if (player=='R'){
-				System.out.println("Black won");
+				System.out.println("Black is won");
 			}else{
-				System.out.println("Red won");
+				System.out.println("Red is won");
 			}
 		}else{
 			System.out.println("Tie game");
@@ -77,7 +77,7 @@ public class Connect4 {
 				System.out.print("|");
 			}
 			System.out.println();
-			System.out.println("---------------");
+			System.out.println("----------");
 		}
 		System.out.println(" 0 1 2 3 4 5 6");
 		System.out.println();
